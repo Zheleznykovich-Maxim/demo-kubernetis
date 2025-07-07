@@ -25,7 +25,7 @@ public class BookmarksDTO {
         this.setData(bookmarkPage.getContent());
         this.setTotalElements(bookmarkPage.getTotalElements());
         this.setTotalPages(bookmarkPage.getTotalPages());
-        this.setCurrentPage(bookmarkPage.getNumber());
+        this.setCurrentPage(bookmarkPage.getNumber() + 1);
         this.setFirst(bookmarkPage.isFirst());
         this.setLast(bookmarkPage.isLast());
         this.setHasNext(bookmarkPage.hasNext());
